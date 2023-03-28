@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding:0;
+    box-shadow: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 80px/20px;
+    color: black;
+    width: 100%;
+    font-weight: 400;
+}
+
+main {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 10px;
+}
+
+.ul li {
+    text-decoration: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: .4s;
+}
+
+.btn-primary {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 19px 60px;
+    background-color: blue;
+    text-decoration: none;
+    transition: .4s;
+    color: #fff;
+    letter-spacing: 0.53px;
+    border-radius: 10px;
+}
+
+.btn-primary:hover {
+    color: rgb(3, 3, 116);
+}
+
+/* Header */
+
+#header-section {
+    padding: 25px 0px 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-image #path {
+    list-style-image: url('../img/Path.svg');
+}
+
+.path-color:hover {
+    color: yellow;
+}
+
+
+.nav-main {
+    display: flex;
+    gap: 54px;
+}
+ 
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+ .nav-list:hover {
+    color: rgb(230, 111, 14);
+ }
+
+/* Banner */
+
+#banner-section {
+    position: relative;
+    overflow: hidden;
+    padding: 160px 0 60px;
+}
+
+.banner-section-container {
+    background: url('/img/pose_7.png') no-repeat scroll 541px -59px transparent;
+    background-size: 60% 120%;
+    width: 100%;
+}
+
+.banner {
+    width: 620px;
+}
+
+.banner-text {
+    margin: 29px 19px;
+    margin-left: auto;
+}
+
+/* Flex */
+
+#flex-section {
+    display: flex;
+    align-items: center;
+}
+
+.flex-text {
+    list-style: none;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    gap: 58px;
+}
+
+.flex-text li#p1 {
+    list-style-image: url('../img/p1.svg');
+}
+
+.flex-text li#p2 {
+    list-style-image: url('../img/p2.svg');
+}
+
+.flex-text li#p3 {
+    list-style-image: url('../img/p3.svg');
+}
+
+.flex-text li#p4 {
+    list-style-image: url('../img/p4.svg');
+}
+
+.flex-text li#p5 {
+    list-style-image: url('../img/p5.svg');
+}
+
+/* Sibscription */
+
+.sibscription-section-container {
+    display: flex;
+    justify-content: right;
+    background: url('../img/pose_11.png') no-repeat scroll 0 4px transparent;
+    background-size: 10%;
+}
+
+.head-title {
+    margin-top: 80px;
+    padding-left: 30px;
+    width: 560px;
+}
+
+div .section-title h2 {
+    position: relative;
+    padding: 0 0px 40px 24px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.sibscription-text {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.button {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 60px 0px 60px;
+}
+
+.button:hover {
+    color: blue;
+}
+
+/* Metrics */
+
+.sibscription-section {
+    font-display: flex;
+    align-items: center;
+}
+
+.metrics-section-container {
+    width: 550px;
+}
+
+
+
+.row ul li {
+    list-style: none;
+}
+
